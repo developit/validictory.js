@@ -3,7 +3,7 @@
 		define([], factory);
 	}
 	else {
-		factory();
+		window.validictory = factory();
 	}
 }(function() {
 	var exports,
